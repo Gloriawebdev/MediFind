@@ -1,0 +1,189 @@
+/* GENERAL */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f8fc;
+    color:#333;
+    padding:40px;
+}
+/* NAVIGATION */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1565C0;
+    color:white;
+    padding:15px 30px;
+    border-radius:10px;
+    margin-bottom:30px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:500;
+}
+
+.nav-links a:hover{
+    text-decoration:underline;
+}
+/* HOMEPAGE */
+
+.container{
+    max-width:700px;
+    margin:80px auto;
+    background:#fff;
+    padding:45px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+h1{
+    color:#1565C0;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:20px;
+    color:#666;
+    margin-bottom:15px;
+}
+
+.description{
+    color:#777;
+    margin-bottom:30px;
+    line-height:1.7;
+}
+/* FOOTER */
+
+footer{
+    margin-top:50px;
+    text-align:center;
+    color:#666;
+    font-size:14px;
+    padding:20px;
+    border-top:1px solid #ddd;
+}
+/* SEARCH FORM */
+
+
+#search{
+    float:right;
+}
+form{
+    text-align:center;
+    margin:30px auto;
+}
+
+input[type=text]{
+
+    width:65%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+input[type=text]:focus{
+    outline:none;
+    border-color:#1565C0;
+}
+
+button{
+
+    padding:14px 25px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#1565C0;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+    background:#0D47A1;
+}
+
+/* SEARCH RESULTS */
+
+hr{
+    margin:25px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+h2{
+    margin-bottom:10px;
+    color:#1565C0;
+}
+
+p{
+    margin:8px 0;
+    line-height:1.7;
+}
+
+a{
+    color:#1565C0;
+    text-decoration:none;
+    font-weight:500;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* DETAILS PAGE */
+
+strong{
+    color:#1565C0;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.container{
+
+    width:100%;
+    padding:25px;
+
+}
+
+input[type=text]{
+
+    width:100%;
+    margin-bottom:15px;
+
+}
+
+button{
+
+    width:100%;
+
+}
+}
+
+ 
